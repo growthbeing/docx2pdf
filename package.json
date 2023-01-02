@@ -1,0 +1,20 @@
+{
+  "name": "docx-to-pdf",
+  "version": "1.0.0",
+  "description": "A command-line tool for converting DOCX files to PDF",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node index.js"
+  },
+  "dependencies": {
+    "docx-pdf": "^0.5.0",
+    "fs": "0.0.1-security"
+  },
+  "keywords": [
+    "docx",
+    "pdf",
+    "convert"
+  ],
+  "author": "growthbeing",
+  "license": "ISC"
+}
